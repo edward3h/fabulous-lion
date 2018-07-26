@@ -1,0 +1,2096 @@
+{
+  "{\"filename\":\"/app/server/src/server.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/server/src\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          },
+          {
+            "source": "webpack",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "webpack"
+              }
+            ]
+          },
+          {
+            "source": "morgan",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "morgan"
+              }
+            ]
+          },
+          {
+            "source": "body-parser",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "bodyParser"
+              }
+            ]
+          },
+          {
+            "source": "passport",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "passport"
+              }
+            ]
+          },
+          {
+            "source": "./ppfb",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "ppfb"
+              }
+            ]
+          },
+          {
+            "source": "../../webpack.config.dev",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "wpconfig"
+              }
+            ]
+          },
+          {
+            "source": "./api",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "apirouter"
+              }
+            ]
+          },
+          {
+            "source": "./auth",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "authrouter"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/server/src/server.js",
+      "filenameRelative": "/app/server/src/server.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "server.js",
+      "sourceFileName": "server.js",
+      "sourceRoot": "/app/server/src",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app/server/src",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "server"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _webpack = require('webpack');\n\nvar _webpack2 = _interopRequireDefault(_webpack);\n\nvar _morgan = require('morgan');\n\nvar _morgan2 = _interopRequireDefault(_morgan);\n\nvar _bodyParser = require('body-parser');\n\nvar _bodyParser2 = _interopRequireDefault(_bodyParser);\n\nvar _passport = require('passport');\n\nvar _passport2 = _interopRequireDefault(_passport);\n\nvar _ppfb = require('./ppfb');\n\nvar _ppfb2 = _interopRequireDefault(_ppfb);\n\nvar _webpackConfig = require('../../webpack.config.dev');\n\nvar _webpackConfig2 = _interopRequireDefault(_webpackConfig);\n\nvar _api = require('./api');\n\nvar _api2 = _interopRequireDefault(_api);\n\nvar _auth = require('./auth');\n\nvar _auth2 = _interopRequireDefault(_auth);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n(0, _ppfb2.default)(_passport2.default);\n\nvar port = process.env.PORT;\nvar app = (0, _express2.default)();\n\napp.use(_bodyParser2.default.json());\napp.use(_bodyParser2.default.urlencoded({ extended: true }));\napp.use(_express2.default.static('public'));\n\nvar compiler = (0, _webpack2.default)(_webpackConfig2.default);\napp.use(require('webpack-dev-middleware')(compiler, {\n        noInfo: true,\n        publicPath: _webpackConfig2.default.output.publicPath\n}));\n\napp.use((0, _morgan2.default)('combined'));\n\napp.use(_passport2.default.initialize());\napp.use(_passport2.default.session());\n\napp.use('/api', _api2.default);\n\napp.use('/auth', _auth2.default);\n\napp.get('/*', function (req, res) {\n        res.sendFile('/app/public/index.html');\n});\n\napp.listen(port, function (err) {\n        if (err) {\n                console.log(err);\n        } else {\n                console.log(\"Hello\");\n        }\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNlcnZlci5qcyJdLCJuYW1lcyI6WyJwYXNzcG9ydCIsInBvcnQiLCJwcm9jZXNzIiwiZW52IiwiUE9SVCIsImFwcCIsInVzZSIsImJvZHlQYXJzZXIiLCJqc29uIiwidXJsZW5jb2RlZCIsImV4dGVuZGVkIiwiZXhwcmVzcyIsInN0YXRpYyIsImNvbXBpbGVyIiwid3Bjb25maWciLCJyZXF1aXJlIiwibm9JbmZvIiwicHVibGljUGF0aCIsIm91dHB1dCIsImluaXRpYWxpemUiLCJzZXNzaW9uIiwiYXBpcm91dGVyIiwiYXV0aHJvdXRlciIsImdldCIsInJlcSIsInJlcyIsInNlbmRGaWxlIiwibGlzdGVuIiwiZXJyIiwiY29uc29sZSIsImxvZyJdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFXQTs7OztBQVlBOzs7O0FBR0E7Ozs7OztBQXhCQSxvQkFBS0Esa0JBQUw7O0FBRUEsSUFBTUMsT0FBT0MsUUFBUUMsR0FBUixDQUFZQyxJQUF6QjtBQUNBLElBQU1DLE1BQU0sd0JBQVo7O0FBRUFBLElBQUlDLEdBQUosQ0FBUUMscUJBQVdDLElBQVgsRUFBUjtBQUNBSCxJQUFJQyxHQUFKLENBQVFDLHFCQUFXRSxVQUFYLENBQXNCLEVBQUVDLFVBQVUsSUFBWixFQUF0QixDQUFSO0FBQ0FMLElBQUlDLEdBQUosQ0FBUUssa0JBQVFDLE1BQVIsQ0FBZSxRQUFmLENBQVI7O0FBR0EsSUFBTUMsV0FBVyx1QkFBUUMsdUJBQVIsQ0FBakI7QUFDQVQsSUFBSUMsR0FBSixDQUFRUyxRQUFRLHdCQUFSLEVBQWtDRixRQUFsQyxFQUE0QztBQUN4Q0csZ0JBQVEsSUFEZ0M7QUFFeENDLG9CQUFZSCx3QkFBU0ksTUFBVCxDQUFnQkQ7QUFGWSxDQUE1QyxDQUFSOztBQUtBWixJQUFJQyxHQUFKLENBQVEsc0JBQU8sVUFBUCxDQUFSOztBQUVBRCxJQUFJQyxHQUFKLENBQVFOLG1CQUFTbUIsVUFBVCxFQUFSO0FBQ0FkLElBQUlDLEdBQUosQ0FBUU4sbUJBQVNvQixPQUFULEVBQVI7O0FBR0FmLElBQUlDLEdBQUosQ0FBUSxNQUFSLEVBQWdCZSxhQUFoQjs7QUFHQWhCLElBQUlDLEdBQUosQ0FBUSxPQUFSLEVBQWlCZ0IsY0FBakI7O0FBRUFqQixJQUFJa0IsR0FBSixDQUFRLElBQVIsRUFBYyxVQUFDQyxHQUFELEVBQU1DLEdBQU4sRUFBYztBQUMxQkEsWUFBSUMsUUFBSixDQUFhLHdCQUFiO0FBQ0QsQ0FGRDs7QUFJQXJCLElBQUlzQixNQUFKLENBQVcxQixJQUFYLEVBQWlCLGVBQU87QUFDaEIsWUFBRzJCLEdBQUgsRUFBUTtBQUNBQyx3QkFBUUMsR0FBUixDQUFZRixHQUFaO0FBQ1AsU0FGRCxNQUVPO0FBQ0NDLHdCQUFRQyxHQUFSLENBQVksT0FBWjtBQUNQO0FBQ1IsQ0FORCIsImZpbGUiOiJzZXJ2ZXIuanMiLCJzb3VyY2VSb290IjoiL2FwcC9zZXJ2ZXIvc3JjIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGV4cHJlc3MgZnJvbSAnZXhwcmVzcyc7XG5pbXBvcnQgd2VicGFjayBmcm9tICd3ZWJwYWNrJztcbmltcG9ydCBtb3JnYW4gZnJvbSAnbW9yZ2FuJztcbmltcG9ydCBib2R5UGFyc2VyIGZyb20gJ2JvZHktcGFyc2VyJztcbmltcG9ydCBwYXNzcG9ydCBmcm9tICdwYXNzcG9ydCc7XG5pbXBvcnQgcHBmYiBmcm9tICcuL3BwZmInO1xuXG5wcGZiKHBhc3Nwb3J0KTtcblxuY29uc3QgcG9ydCA9IHByb2Nlc3MuZW52LlBPUlQ7XG5jb25zdCBhcHAgPSBleHByZXNzKCk7XG5cbmFwcC51c2UoYm9keVBhcnNlci5qc29uKCkpO1xuYXBwLnVzZShib2R5UGFyc2VyLnVybGVuY29kZWQoeyBleHRlbmRlZDogdHJ1ZSB9KSk7XG5hcHAudXNlKGV4cHJlc3Muc3RhdGljKCdwdWJsaWMnKSk7XG5cbmltcG9ydCB3cGNvbmZpZyBmcm9tICcuLi8uLi93ZWJwYWNrLmNvbmZpZy5kZXYnO1xuY29uc3QgY29tcGlsZXIgPSB3ZWJwYWNrKHdwY29uZmlnKTtcbmFwcC51c2UocmVxdWlyZSgnd2VicGFjay1kZXYtbWlkZGxld2FyZScpKGNvbXBpbGVyLCB7XG4gICAgICAgICAgICBub0luZm86IHRydWUsXG4gICAgICAgICAgICBwdWJsaWNQYXRoOiB3cGNvbmZpZy5vdXRwdXQucHVibGljUGF0aFxufSkpO1xuXG5hcHAudXNlKG1vcmdhbignY29tYmluZWQnKSk7XG5cbmFwcC51c2UocGFzc3BvcnQuaW5pdGlhbGl6ZSgpKVxuYXBwLnVzZShwYXNzcG9ydC5zZXNzaW9uKCkpXG5cbmltcG9ydCBhcGlyb3V0ZXIgZnJvbSAnLi9hcGknO1xuYXBwLnVzZSgnL2FwaScsIGFwaXJvdXRlcik7XG5cbmltcG9ydCBhdXRocm91dGVyIGZyb20gJy4vYXV0aCc7XG5hcHAudXNlKCcvYXV0aCcsIGF1dGhyb3V0ZXIpO1xuXG5hcHAuZ2V0KCcvKicsIChyZXEsIHJlcykgPT4ge1xuICByZXMuc2VuZEZpbGUoJy9hcHAvcHVibGljL2luZGV4Lmh0bWwnKTtcbn0pO1xuXG5hcHAubGlzdGVuKHBvcnQsIGVyciA9PiB7XG4gICAgICAgIGlmKGVycikge1xuICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKGVycik7XG4gICAgICAgIH0gZWxzZSB7XG4gICAgICAgICAgICAgICAgY29uc29sZS5sb2coXCJIZWxsb1wiKTtcbiAgICAgICAgfVxufSk7XG5cbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "server.js"
+      ],
+      "names": [
+        "passport",
+        "port",
+        "process",
+        "env",
+        "PORT",
+        "app",
+        "use",
+        "bodyParser",
+        "json",
+        "urlencoded",
+        "extended",
+        "express",
+        "static",
+        "compiler",
+        "wpconfig",
+        "require",
+        "noInfo",
+        "publicPath",
+        "output",
+        "initialize",
+        "session",
+        "apirouter",
+        "authrouter",
+        "get",
+        "req",
+        "res",
+        "sendFile",
+        "listen",
+        "err",
+        "console",
+        "log"
+      ],
+      "mappings": ";;AAAA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;AAWA;;;;AAYA;;;;AAGA;;;;;;AAxBA,oBAAKA,kBAAL;;AAEA,IAAMC,OAAOC,QAAQC,GAAR,CAAYC,IAAzB;AACA,IAAMC,MAAM,wBAAZ;;AAEAA,IAAIC,GAAJ,CAAQC,qBAAWC,IAAX,EAAR;AACAH,IAAIC,GAAJ,CAAQC,qBAAWE,UAAX,CAAsB,EAAEC,UAAU,IAAZ,EAAtB,CAAR;AACAL,IAAIC,GAAJ,CAAQK,kBAAQC,MAAR,CAAe,QAAf,CAAR;;AAGA,IAAMC,WAAW,uBAAQC,uBAAR,CAAjB;AACAT,IAAIC,GAAJ,CAAQS,QAAQ,wBAAR,EAAkCF,QAAlC,EAA4C;AACxCG,gBAAQ,IADgC;AAExCC,oBAAYH,wBAASI,MAAT,CAAgBD;AAFY,CAA5C,CAAR;;AAKAZ,IAAIC,GAAJ,CAAQ,sBAAO,UAAP,CAAR;;AAEAD,IAAIC,GAAJ,CAAQN,mBAASmB,UAAT,EAAR;AACAd,IAAIC,GAAJ,CAAQN,mBAASoB,OAAT,EAAR;;AAGAf,IAAIC,GAAJ,CAAQ,MAAR,EAAgBe,aAAhB;;AAGAhB,IAAIC,GAAJ,CAAQ,OAAR,EAAiBgB,cAAjB;;AAEAjB,IAAIkB,GAAJ,CAAQ,IAAR,EAAc,UAACC,GAAD,EAAMC,GAAN,EAAc;AAC1BA,YAAIC,QAAJ,CAAa,wBAAb;AACD,CAFD;;AAIArB,IAAIsB,MAAJ,CAAW1B,IAAX,EAAiB,eAAO;AAChB,YAAG2B,GAAH,EAAQ;AACAC,wBAAQC,GAAR,CAAYF,GAAZ;AACP,SAFD,MAEO;AACCC,wBAAQC,GAAR,CAAY,OAAZ;AACP;AACR,CAND",
+      "file": "server.js",
+      "sourceRoot": "/app/server/src",
+      "sourcesContent": [
+        "import express from 'express';\nimport webpack from 'webpack';\nimport morgan from 'morgan';\nimport bodyParser from 'body-parser';\nimport passport from 'passport';\nimport ppfb from './ppfb';\n\nppfb(passport);\n\nconst port = process.env.PORT;\nconst app = express();\n\napp.use(bodyParser.json());\napp.use(bodyParser.urlencoded({ extended: true }));\napp.use(express.static('public'));\n\nimport wpconfig from '../../webpack.config.dev';\nconst compiler = webpack(wpconfig);\napp.use(require('webpack-dev-middleware')(compiler, {\n            noInfo: true,\n            publicPath: wpconfig.output.publicPath\n}));\n\napp.use(morgan('combined'));\n\napp.use(passport.initialize())\napp.use(passport.session())\n\nimport apirouter from './api';\napp.use('/api', apirouter);\n\nimport authrouter from './auth';\napp.use('/auth', authrouter);\n\napp.get('/*', (req, res) => {\n  res.sendFile('/app/public/index.html');\n});\n\napp.listen(port, err => {\n        if(err) {\n                console.log(err);\n        } else {\n                console.log(\"Hello\");\n        }\n});\n\n"
+      ]
+    },
+    "mtime": 1527796013400
+  },
+  "{\"filename\":\"/app/webpack.config.dev.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "webpack",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "webpack"
+              }
+            ]
+          },
+          {
+            "source": "path",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "path"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/webpack.config.dev.js",
+      "filenameRelative": "/app/webpack.config.dev.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "webpack.config.dev.js",
+      "sourceFileName": "webpack.config.dev.js",
+      "sourceRoot": "/app",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "webpack.config.dev"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _webpack = require('webpack');\n\nvar _webpack2 = _interopRequireDefault(_webpack);\n\nvar _path = require('path');\n\nvar _path2 = _interopRequireDefault(_path);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = {\n  mode: 'development',\n  devtool: \"inline-source-map\",\n  entry: \"./client/src/app.js\",\n  output: {\n    filename: 'client.js',\n    path: _path2.default.resolve(__dirname, 'public'),\n    publicPath: '/'\n  },\n  module: {\n    rules: [{\n      test: /\\.(js|jsx)$/,\n      exclude: /node_modules/,\n      use: ['babel-loader']\n    }, {\n      test: /\\.less$/,\n      use: [{\n        loader: 'style-loader' // creates style nodes from JS strings\n      }, {\n        loader: 'css-loader' // translates CSS into CommonJS\n      }, {\n        loader: 'less-loader' // compiles Less to CSS\n      }]\n    }]\n  },\n  // Enable importing JS files without specifying their's extenstion -> ADDED IN THIS STEP\n  //\n  // So we can write:\n  // import MyComponent from './my-component';\n  //\n  // Instead of:\n  // import MyComponent from './my-component.jsx';\n  resolve: {\n    extensions: ['.js', '.jsx']\n  }\n};\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2suY29uZmlnLmRldi5qcyJdLCJuYW1lcyI6WyJtb2RlIiwiZGV2dG9vbCIsImVudHJ5Iiwib3V0cHV0IiwiZmlsZW5hbWUiLCJwYXRoIiwicmVzb2x2ZSIsIl9fZGlybmFtZSIsInB1YmxpY1BhdGgiLCJtb2R1bGUiLCJydWxlcyIsInRlc3QiLCJleGNsdWRlIiwidXNlIiwibG9hZGVyIiwiZXh0ZW5zaW9ucyJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7Ozs7QUFDQTs7Ozs7O2tCQUVlO0FBQ1BBLFFBQU0sYUFEQztBQUVQQyxXQUFTLG1CQUZGO0FBR1BDLFNBQU8scUJBSEE7QUFJUEMsVUFBUTtBQUNBQyxjQUFVLFdBRFY7QUFFQUMsVUFBTUEsZUFBS0MsT0FBTCxDQUFhQyxTQUFiLEVBQXdCLFFBQXhCLENBRk47QUFHQUMsZ0JBQVk7QUFIWixHQUpEO0FBU1BDLFVBQVE7QUFDRkMsV0FBTyxDQUNEO0FBQ1FDLFlBQU0sYUFEZDtBQUVRQyxlQUFTLGNBRmpCO0FBR1FDLFdBQUssQ0FDSCxjQURHO0FBSGIsS0FEQyxFQVFIO0FBQ0lGLFlBQU0sU0FEVjtBQUVJRSxXQUFLLENBQUM7QUFDSkMsZ0JBQVEsY0FESixDQUNtQjtBQURuQixPQUFELEVBRUY7QUFDREEsZ0JBQVEsWUFEUCxDQUNvQjtBQURwQixPQUZFLEVBSUY7QUFDREEsZ0JBQVEsYUFEUCxDQUNxQjtBQURyQixPQUpFO0FBRlQsS0FSRztBQURMLEdBVEQ7QUE4QmI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDR1IsV0FBUztBQUNMUyxnQkFBWSxDQUFDLEtBQUQsRUFBUSxNQUFSO0FBRFA7QUFyQ0MsQyIsImZpbGUiOiJ3ZWJwYWNrLmNvbmZpZy5kZXYuanMiLCJzb3VyY2VSb290IjoiL2FwcCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB3ZWJwYWNrIGZyb20gJ3dlYnBhY2snO1xuaW1wb3J0IHBhdGggZnJvbSAncGF0aCc7XG5cbmV4cG9ydCBkZWZhdWx0IHtcbiAgICAgICAgbW9kZTogJ2RldmVsb3BtZW50JyxcbiAgICAgICAgZGV2dG9vbDogXCJpbmxpbmUtc291cmNlLW1hcFwiLFxuICAgICAgICBlbnRyeTogXCIuL2NsaWVudC9zcmMvYXBwLmpzXCIsXG4gICAgICAgIG91dHB1dDoge1xuICAgICAgICAgICAgICAgIGZpbGVuYW1lOiAnY2xpZW50LmpzJyxcbiAgICAgICAgICAgICAgICBwYXRoOiBwYXRoLnJlc29sdmUoX19kaXJuYW1lLCAncHVibGljJyksXG4gICAgICAgICAgICAgICAgcHVibGljUGF0aDogJy8nXG4gICAgICAgIH0sXG4gICAgICAgIG1vZHVsZToge1xuICAgICAgICAgICAgICBydWxlczogW1xuICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdGVzdDogL1xcLihqc3xqc3gpJC8sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgZXhjbHVkZTogL25vZGVfbW9kdWxlcy8sXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdXNlOiBbXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnYmFiZWwtbG9hZGVyJyxcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLFxuICAgICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgICB0ZXN0OiAvXFwubGVzcyQvLFxuICAgICAgICAgICAgICAgICAgICAgIHVzZTogW3tcbiAgICAgICAgICAgICAgICAgICAgICAgIGxvYWRlcjogJ3N0eWxlLWxvYWRlcicgLy8gY3JlYXRlcyBzdHlsZSBub2RlcyBmcm9tIEpTIHN0cmluZ3NcbiAgICAgICAgICAgICAgICAgICAgICB9LCB7XG4gICAgICAgICAgICAgICAgICAgICAgICBsb2FkZXI6ICdjc3MtbG9hZGVyJyAvLyB0cmFuc2xhdGVzIENTUyBpbnRvIENvbW1vbkpTXG4gICAgICAgICAgICAgICAgICAgICAgfSwge1xuICAgICAgICAgICAgICAgICAgICAgICAgbG9hZGVyOiAnbGVzcy1sb2FkZXInIC8vIGNvbXBpbGVzIExlc3MgdG8gQ1NTXG4gICAgICAgICAgICAgICAgICAgICAgfV1cbiAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICBdLFxuICAgIH0sXG4gIC8vIEVuYWJsZSBpbXBvcnRpbmcgSlMgZmlsZXMgd2l0aG91dCBzcGVjaWZ5aW5nIHRoZWlyJ3MgZXh0ZW5zdGlvbiAtPiBBRERFRCBJTiBUSElTIFNURVBcbiAgLy9cbiAgLy8gU28gd2UgY2FuIHdyaXRlOlxuICAvLyBpbXBvcnQgTXlDb21wb25lbnQgZnJvbSAnLi9teS1jb21wb25lbnQnO1xuICAvL1xuICAvLyBJbnN0ZWFkIG9mOlxuICAvLyBpbXBvcnQgTXlDb21wb25lbnQgZnJvbSAnLi9teS1jb21wb25lbnQuanN4JztcbiAgICAgcmVzb2x2ZToge1xuICAgICAgICAgZXh0ZW5zaW9uczogWycuanMnLCAnLmpzeCddLFxuICAgICB9XG59XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "webpack.config.dev.js"
+      ],
+      "names": [
+        "mode",
+        "devtool",
+        "entry",
+        "output",
+        "filename",
+        "path",
+        "resolve",
+        "__dirname",
+        "publicPath",
+        "module",
+        "rules",
+        "test",
+        "exclude",
+        "use",
+        "loader",
+        "extensions"
+      ],
+      "mappings": ";;;;;;AAAA;;;;AACA;;;;;;kBAEe;AACPA,QAAM,aADC;AAEPC,WAAS,mBAFF;AAGPC,SAAO,qBAHA;AAIPC,UAAQ;AACAC,cAAU,WADV;AAEAC,UAAMA,eAAKC,OAAL,CAAaC,SAAb,EAAwB,QAAxB,CAFN;AAGAC,gBAAY;AAHZ,GAJD;AASPC,UAAQ;AACFC,WAAO,CACD;AACQC,YAAM,aADd;AAEQC,eAAS,cAFjB;AAGQC,WAAK,CACH,cADG;AAHb,KADC,EAQH;AACIF,YAAM,SADV;AAEIE,WAAK,CAAC;AACJC,gBAAQ,cADJ,CACmB;AADnB,OAAD,EAEF;AACDA,gBAAQ,YADP,CACoB;AADpB,OAFE,EAIF;AACDA,gBAAQ,aADP,CACqB;AADrB,OAJE;AAFT,KARG;AADL,GATD;AA8Bb;AACA;AACA;AACA;AACA;AACA;AACA;AACGR,WAAS;AACLS,gBAAY,CAAC,KAAD,EAAQ,MAAR;AADP;AArCC,C",
+      "file": "webpack.config.dev.js",
+      "sourceRoot": "/app",
+      "sourcesContent": [
+        "import webpack from 'webpack';\nimport path from 'path';\n\nexport default {\n        mode: 'development',\n        devtool: \"inline-source-map\",\n        entry: \"./client/src/app.js\",\n        output: {\n                filename: 'client.js',\n                path: path.resolve(__dirname, 'public'),\n                publicPath: '/'\n        },\n        module: {\n              rules: [\n                    {\n                            test: /\\.(js|jsx)$/,\n                            exclude: /node_modules/,\n                            use: [\n                              'babel-loader',\n                            ],\n                  },\n                  {\n                      test: /\\.less$/,\n                      use: [{\n                        loader: 'style-loader' // creates style nodes from JS strings\n                      }, {\n                        loader: 'css-loader' // translates CSS into CommonJS\n                      }, {\n                        loader: 'less-loader' // compiles Less to CSS\n                      }]\n                  }\n          ],\n    },\n  // Enable importing JS files without specifying their's extenstion -> ADDED IN THIS STEP\n  //\n  // So we can write:\n  // import MyComponent from './my-component';\n  //\n  // Instead of:\n  // import MyComponent from './my-component.jsx';\n     resolve: {\n         extensions: ['.js', '.jsx'],\n     }\n}\n"
+      ]
+    },
+    "mtime": 1526687143452
+  },
+  "{\"filename\":\"/app/server/src/auth.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/server/src\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          },
+          {
+            "source": "passport",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "passport"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/server/src/auth.js",
+      "filenameRelative": "/app/server/src/auth.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "auth.js",
+      "sourceFileName": "auth.js",
+      "sourceRoot": "/app/server/src",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app/server/src",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "auth"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _passport = require('passport');\n\nvar _passport2 = _interopRequireDefault(_passport);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar router = _express2.default.Router();\n\nrouter.get(\"/login-facebook\", _passport2.default.authenticate(\"facebook\"));\n\nrouter.get(\"/cbFacebook\", _passport2.default.authenticate(\"facebook\"), function (req, res) {\n  res.redirect(\"/\");\n});\n\nexports.default = router;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImF1dGguanMiXSwibmFtZXMiOlsicm91dGVyIiwiZXhwcmVzcyIsIlJvdXRlciIsImdldCIsInBhc3Nwb3J0IiwiYXV0aGVudGljYXRlIiwicmVxIiwicmVzIiwicmVkaXJlY3QiXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBOzs7O0FBQ0E7Ozs7OztBQUVBLElBQU1BLFNBQVNDLGtCQUFRQyxNQUFSLEVBQWY7O0FBRUFGLE9BQU9HLEdBQVAsQ0FBVyxpQkFBWCxFQUE4QkMsbUJBQVNDLFlBQVQsQ0FBc0IsVUFBdEIsQ0FBOUI7O0FBRUFMLE9BQU9HLEdBQVAsQ0FBVyxhQUFYLEVBQTBCQyxtQkFBU0MsWUFBVCxDQUFzQixVQUF0QixDQUExQixFQUE2RCxVQUFDQyxHQUFELEVBQU1DLEdBQU4sRUFBYztBQUN6RUEsTUFBSUMsUUFBSixDQUFhLEdBQWI7QUFDRCxDQUZEOztrQkFJZVIsTSIsImZpbGUiOiJhdXRoLmpzIiwic291cmNlUm9vdCI6Ii9hcHAvc2VydmVyL3NyYyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBleHByZXNzIGZyb20gJ2V4cHJlc3MnO1xuaW1wb3J0IHBhc3Nwb3J0IGZyb20gJ3Bhc3Nwb3J0JztcblxuY29uc3Qgcm91dGVyID0gZXhwcmVzcy5Sb3V0ZXIoKTtcblxucm91dGVyLmdldChcIi9sb2dpbi1mYWNlYm9va1wiLCBwYXNzcG9ydC5hdXRoZW50aWNhdGUoXCJmYWNlYm9va1wiKSk7XG5cbnJvdXRlci5nZXQoXCIvY2JGYWNlYm9va1wiLCBwYXNzcG9ydC5hdXRoZW50aWNhdGUoXCJmYWNlYm9va1wiKSwgKHJlcSwgcmVzKSA9PiB7XG4gIHJlcy5yZWRpcmVjdChcIi9cIilcbn0pO1xuXG5leHBvcnQgZGVmYXVsdCByb3V0ZXI7Il19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "auth.js"
+      ],
+      "names": [
+        "router",
+        "express",
+        "Router",
+        "get",
+        "passport",
+        "authenticate",
+        "req",
+        "res",
+        "redirect"
+      ],
+      "mappings": ";;;;;;AAAA;;;;AACA;;;;;;AAEA,IAAMA,SAASC,kBAAQC,MAAR,EAAf;;AAEAF,OAAOG,GAAP,CAAW,iBAAX,EAA8BC,mBAASC,YAAT,CAAsB,UAAtB,CAA9B;;AAEAL,OAAOG,GAAP,CAAW,aAAX,EAA0BC,mBAASC,YAAT,CAAsB,UAAtB,CAA1B,EAA6D,UAACC,GAAD,EAAMC,GAAN,EAAc;AACzEA,MAAIC,QAAJ,CAAa,GAAb;AACD,CAFD;;kBAIeR,M",
+      "file": "auth.js",
+      "sourceRoot": "/app/server/src",
+      "sourcesContent": [
+        "import express from 'express';\nimport passport from 'passport';\n\nconst router = express.Router();\n\nrouter.get(\"/login-facebook\", passport.authenticate(\"facebook\"));\n\nrouter.get(\"/cbFacebook\", passport.authenticate(\"facebook\"), (req, res) => {\n  res.redirect(\"/\")\n});\n\nexport default router;"
+      ]
+    },
+    "mtime": 1527795083833
+  },
+  "{\"filename\":\"/app/server/src/api.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/server/src\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/server/src/api.js",
+      "filenameRelative": "/app/server/src/api.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "api.js",
+      "sourceFileName": "api.js",
+      "sourceRoot": "/app/server/src",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app/server/src",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "api"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar router = _express2.default.Router();\n\nrouter.get('/ping', function (req, res) {\n  res.sendStatus(200);\n});\n\nexports.default = router;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwaS5qcyJdLCJuYW1lcyI6WyJyb3V0ZXIiLCJleHByZXNzIiwiUm91dGVyIiwiZ2V0IiwicmVxIiwicmVzIiwic2VuZFN0YXR1cyJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7Ozs7OztBQUVBLElBQU1BLFNBQVNDLGtCQUFRQyxNQUFSLEVBQWY7O0FBRUFGLE9BQU9HLEdBQVAsQ0FBVyxPQUFYLEVBQW9CLFVBQUNDLEdBQUQsRUFBTUMsR0FBTixFQUFjO0FBQ2hDQSxNQUFJQyxVQUFKLENBQWUsR0FBZjtBQUNELENBRkQ7O2tCQUllTixNIiwiZmlsZSI6ImFwaS5qcyIsInNvdXJjZVJvb3QiOiIvYXBwL3NlcnZlci9zcmMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZXhwcmVzcyBmcm9tICdleHByZXNzJztcblxuY29uc3Qgcm91dGVyID0gZXhwcmVzcy5Sb3V0ZXIoKTtcblxucm91dGVyLmdldCgnL3BpbmcnLCAocmVxLCByZXMpID0+IHtcbiAgcmVzLnNlbmRTdGF0dXMoMjAwKTtcbn0pO1xuXG5leHBvcnQgZGVmYXVsdCByb3V0ZXI7Il19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "api.js"
+      ],
+      "names": [
+        "router",
+        "express",
+        "Router",
+        "get",
+        "req",
+        "res",
+        "sendStatus"
+      ],
+      "mappings": ";;;;;;AAAA;;;;;;AAEA,IAAMA,SAASC,kBAAQC,MAAR,EAAf;;AAEAF,OAAOG,GAAP,CAAW,OAAX,EAAoB,UAACC,GAAD,EAAMC,GAAN,EAAc;AAChCA,MAAIC,UAAJ,CAAe,GAAf;AACD,CAFD;;kBAIeN,M",
+      "file": "api.js",
+      "sourceRoot": "/app/server/src",
+      "sourcesContent": [
+        "import express from 'express';\n\nconst router = express.Router();\n\nrouter.get('/ping', (req, res) => {\n  res.sendStatus(200);\n});\n\nexport default router;"
+      ]
+    },
+    "mtime": 1526914808203
+  },
+  "{\"filename\":\"/app/server/src/ppfb.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/server/src\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "passport-facebook",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "FacebookStrategy"
+              }
+            ]
+          },
+          {
+            "source": "./user-model",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "User"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/server/src/ppfb.js",
+      "filenameRelative": "/app/server/src/ppfb.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "ppfb.js",
+      "sourceFileName": "ppfb.js",
+      "sourceRoot": "/app/server/src",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app/server/src",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "ppfb"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _passportFacebook = require('passport-facebook');\n\nvar _passportFacebook2 = _interopRequireDefault(_passportFacebook);\n\nvar _userModel = require('./user-model');\n\nvar _userModel2 = _interopRequireDefault(_userModel);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar init = function init(passport) {\n  passport.use(\"facebook\", new _passportFacebook2.default({\n    clientID: process.env.FB_CLIENT_ID,\n    clientSecret: process.env.FB_CLIENT_SECRET,\n    callbackURL: 'https://' + process.env.PROJECT_DOMAIN + '/auth/cbFacebook',\n    profileFields: ['id', 'displayName', 'profile_pic', 'email']\n  }), function (accessToken, refreshToken, profile, done) {\n    _userModel2.default.findOrCreate(profile, function (err, user) {\n      return done(err, user);\n    });\n  });\n};\n\nexports.default = init;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBwZmIuanMiXSwibmFtZXMiOlsiaW5pdCIsInBhc3Nwb3J0IiwidXNlIiwiRmFjZWJvb2tTdHJhdGVneSIsImNsaWVudElEIiwicHJvY2VzcyIsImVudiIsIkZCX0NMSUVOVF9JRCIsImNsaWVudFNlY3JldCIsIkZCX0NMSUVOVF9TRUNSRVQiLCJjYWxsYmFja1VSTCIsIlBST0pFQ1RfRE9NQUlOIiwicHJvZmlsZUZpZWxkcyIsImFjY2Vzc1Rva2VuIiwicmVmcmVzaFRva2VuIiwicHJvZmlsZSIsImRvbmUiLCJVc2VyIiwiZmluZE9yQ3JlYXRlIiwiZXJyIiwidXNlciJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7Ozs7QUFDQTs7Ozs7O0FBRUEsSUFBTUEsT0FBTyxTQUFQQSxJQUFPLENBQUNDLFFBQUQsRUFBYztBQUN6QkEsV0FBU0MsR0FBVCxDQUFhLFVBQWIsRUFDYSxJQUFJQywwQkFBSixDQUNYO0FBQ0VDLGNBQVVDLFFBQVFDLEdBQVIsQ0FBWUMsWUFEeEI7QUFFRUMsa0JBQWNILFFBQVFDLEdBQVIsQ0FBWUcsZ0JBRjVCO0FBR0VDLDhCQUF3QkwsUUFBUUMsR0FBUixDQUFZSyxjQUFwQyxxQkFIRjtBQUlFQyxtQkFBZSxDQUFDLElBQUQsRUFBTyxhQUFQLEVBQXNCLGFBQXRCLEVBQXFDLE9BQXJDO0FBSmpCLEdBRFcsQ0FEYixFQVFFLFVBQUNDLFdBQUQsRUFBY0MsWUFBZCxFQUE0QkMsT0FBNUIsRUFBcUNDLElBQXJDLEVBQThDO0FBQzlDQyx3QkFBS0MsWUFBTCxDQUFrQkgsT0FBbEIsRUFBMkIsVUFBVUksR0FBVixFQUFlQyxJQUFmLEVBQXFCO0FBQzlDLGFBQU9KLEtBQUtHLEdBQUwsRUFBVUMsSUFBVixDQUFQO0FBQ0QsS0FGRDtBQUdELEdBWkQ7QUFhRCxDQWREOztrQkFnQmVwQixJIiwiZmlsZSI6InBwZmIuanMiLCJzb3VyY2VSb290IjoiL2FwcC9zZXJ2ZXIvc3JjIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEZhY2Vib29rU3RyYXRlZ3kgZnJvbSAncGFzc3BvcnQtZmFjZWJvb2snO1xuaW1wb3J0IFVzZXIgZnJvbSAnLi91c2VyLW1vZGVsJztcblxuY29uc3QgaW5pdCA9IChwYXNzcG9ydCkgPT4ge1xuICBwYXNzcG9ydC51c2UoXCJmYWNlYm9va1wiLFxuICAgICAgICAgICAgICAgbmV3IEZhY2Vib29rU3RyYXRlZ3koXG4gICAge1xuICAgICAgY2xpZW50SUQ6IHByb2Nlc3MuZW52LkZCX0NMSUVOVF9JRCxcbiAgICAgIGNsaWVudFNlY3JldDogcHJvY2Vzcy5lbnYuRkJfQ0xJRU5UX1NFQ1JFVCxcbiAgICAgIGNhbGxiYWNrVVJMOiBgaHR0cHM6Ly8ke3Byb2Nlc3MuZW52LlBST0pFQ1RfRE9NQUlOfS9hdXRoL2NiRmFjZWJvb2tgLFxuICAgICAgcHJvZmlsZUZpZWxkczogWydpZCcsICdkaXNwbGF5TmFtZScsICdwcm9maWxlX3BpYycsICdlbWFpbCddXG4gICAgfSksXG4gICAgKGFjY2Vzc1Rva2VuLCByZWZyZXNoVG9rZW4sIHByb2ZpbGUsIGRvbmUpID0+IHtcbiAgICBVc2VyLmZpbmRPckNyZWF0ZShwcm9maWxlLCBmdW5jdGlvbiAoZXJyLCB1c2VyKSB7XG4gICAgICByZXR1cm4gZG9uZShlcnIsIHVzZXIpO1xuICAgIH0pO1xuICB9KTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IGluaXQ7Il19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "ppfb.js"
+      ],
+      "names": [
+        "init",
+        "passport",
+        "use",
+        "FacebookStrategy",
+        "clientID",
+        "process",
+        "env",
+        "FB_CLIENT_ID",
+        "clientSecret",
+        "FB_CLIENT_SECRET",
+        "callbackURL",
+        "PROJECT_DOMAIN",
+        "profileFields",
+        "accessToken",
+        "refreshToken",
+        "profile",
+        "done",
+        "User",
+        "findOrCreate",
+        "err",
+        "user"
+      ],
+      "mappings": ";;;;;;AAAA;;;;AACA;;;;;;AAEA,IAAMA,OAAO,SAAPA,IAAO,CAACC,QAAD,EAAc;AACzBA,WAASC,GAAT,CAAa,UAAb,EACa,IAAIC,0BAAJ,CACX;AACEC,cAAUC,QAAQC,GAAR,CAAYC,YADxB;AAEEC,kBAAcH,QAAQC,GAAR,CAAYG,gBAF5B;AAGEC,8BAAwBL,QAAQC,GAAR,CAAYK,cAApC,qBAHF;AAIEC,mBAAe,CAAC,IAAD,EAAO,aAAP,EAAsB,aAAtB,EAAqC,OAArC;AAJjB,GADW,CADb,EAQE,UAACC,WAAD,EAAcC,YAAd,EAA4BC,OAA5B,EAAqCC,IAArC,EAA8C;AAC9CC,wBAAKC,YAAL,CAAkBH,OAAlB,EAA2B,UAAUI,GAAV,EAAeC,IAAf,EAAqB;AAC9C,aAAOJ,KAAKG,GAAL,EAAUC,IAAV,CAAP;AACD,KAFD;AAGD,GAZD;AAaD,CAdD;;kBAgBepB,I",
+      "file": "ppfb.js",
+      "sourceRoot": "/app/server/src",
+      "sourcesContent": [
+        "import FacebookStrategy from 'passport-facebook';\nimport User from './user-model';\n\nconst init = (passport) => {\n  passport.use(\"facebook\",\n               new FacebookStrategy(\n    {\n      clientID: process.env.FB_CLIENT_ID,\n      clientSecret: process.env.FB_CLIENT_SECRET,\n      callbackURL: `https://${process.env.PROJECT_DOMAIN}/auth/cbFacebook`,\n      profileFields: ['id', 'displayName', 'profile_pic', 'email']\n    }),\n    (accessToken, refreshToken, profile, done) => {\n    User.findOrCreate(profile, function (err, user) {\n      return done(err, user);\n    });\n  });\n};\n\nexport default init;"
+      ]
+    },
+    "mtime": 1527819240290
+  },
+  "{\"filename\":\"/app/server/src/user-model.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/server/src\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "./db",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "db"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/server/src/user-model.js",
+      "filenameRelative": "/app/server/src/user-model.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "user-model.js",
+      "sourceFileName": "user-model.js",
+      "sourceRoot": "/app/server/src",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app/server/src",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "user-model"
+    },
+    "ignored": false,
+    "code": "\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _db = require(\"./db\");\n\nvar _db2 = _interopRequireDefault(_db);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar findOrCreate = function findOrCreate(profile, done) {\n  _db2.default.get(\"select id, provider, name, email, avatar from users where id = $id and provider = $provider\", { $id: profile.id, $provider: profile.provider }, function (err, row) {\n    if (err) {\n      done(err);\n    } else if (row) {\n      done(null, row);\n    } else {\n      // not found, create\n      _db2.default.run(\"insert into users(id, provider, name, email, avatar) values ($id, $provider, $name, $email, $avatar)\", { $id: profile.id, $provider: profile.provider, $name: profile.displayName, $email: profile.email, $avatar: profile.profile_pic }, function (err) {\n        if (err) {\n          done(err);\n        } else {\n          done(null, { id: profile.id, provider: profile.provider, name: profile.displayName, email: profile.email, avatar: profile.profile_pic });\n        }\n      });\n    }\n  });\n};\n\nexports.default = {\n  findOrCreate: findOrCreate\n};\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVzZXItbW9kZWwuanMiXSwibmFtZXMiOlsiZmluZE9yQ3JlYXRlIiwicHJvZmlsZSIsImRvbmUiLCJkYiIsImdldCIsIiRpZCIsImlkIiwiJHByb3ZpZGVyIiwicHJvdmlkZXIiLCJlcnIiLCJyb3ciLCJydW4iLCIkbmFtZSIsImRpc3BsYXlOYW1lIiwiJGVtYWlsIiwiZW1haWwiLCIkYXZhdGFyIiwicHJvZmlsZV9waWMiLCJuYW1lIiwiYXZhdGFyIl0sIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQTs7Ozs7O0FBRUEsSUFBTUEsZUFBZSxTQUFmQSxZQUFlLENBQUNDLE9BQUQsRUFBVUMsSUFBVixFQUFtQjtBQUN0Q0MsZUFBR0MsR0FBSCxDQUFPLDZGQUFQLEVBQXNHLEVBQUNDLEtBQUtKLFFBQVFLLEVBQWQsRUFBa0JDLFdBQVdOLFFBQVFPLFFBQXJDLEVBQXRHLEVBQ08sVUFBQ0MsR0FBRCxFQUFNQyxHQUFOLEVBQWM7QUFDbkIsUUFBSUQsR0FBSixFQUFTO0FBQ1BQLFdBQUtPLEdBQUw7QUFDRCxLQUZELE1BRU8sSUFBSUMsR0FBSixFQUFTO0FBQ2RSLFdBQUssSUFBTCxFQUFXUSxHQUFYO0FBQ0QsS0FGTSxNQUVBO0FBQ0w7QUFDQVAsbUJBQUdRLEdBQUgsQ0FBTyxzR0FBUCxFQUNPLEVBQUNOLEtBQUtKLFFBQVFLLEVBQWQsRUFBa0JDLFdBQVdOLFFBQVFPLFFBQXJDLEVBQStDSSxPQUFPWCxRQUFRWSxXQUE5RCxFQUEyRUMsUUFBUWIsUUFBUWMsS0FBM0YsRUFBa0dDLFNBQVNmLFFBQVFnQixXQUFuSCxFQURQLEVBRU8sVUFBQ1IsR0FBRCxFQUFTO0FBQ2QsWUFBSUEsR0FBSixFQUFTO0FBQ1BQLGVBQUtPLEdBQUw7QUFDRCxTQUZELE1BRU87QUFDTFAsZUFBSyxJQUFMLEVBQVcsRUFBQ0ksSUFBSUwsUUFBUUssRUFBYixFQUFpQkUsVUFBVVAsUUFBUU8sUUFBbkMsRUFBNkNVLE1BQU1qQixRQUFRWSxXQUEzRCxFQUF3RUUsT0FBT2QsUUFBUWMsS0FBdkYsRUFBOEZJLFFBQVFsQixRQUFRZ0IsV0FBOUcsRUFBWDtBQUNEO0FBQ0YsT0FSRDtBQVNEO0FBQ0YsR0FsQkQ7QUFtQkQsQ0FwQkQ7O2tCQXNCZTtBQUNiakI7QUFEYSxDIiwiZmlsZSI6InVzZXItbW9kZWwuanMiLCJzb3VyY2VSb290IjoiL2FwcC9zZXJ2ZXIvc3JjIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGRiIGZyb20gJy4vZGInO1xuXG5jb25zdCBmaW5kT3JDcmVhdGUgPSAocHJvZmlsZSwgZG9uZSkgPT4ge1xuICBkYi5nZXQoXCJzZWxlY3QgaWQsIHByb3ZpZGVyLCBuYW1lLCBlbWFpbCwgYXZhdGFyIGZyb20gdXNlcnMgd2hlcmUgaWQgPSAkaWQgYW5kIHByb3ZpZGVyID0gJHByb3ZpZGVyXCIsIHskaWQ6IHByb2ZpbGUuaWQsICRwcm92aWRlcjogcHJvZmlsZS5wcm92aWRlcn0sIFxuICAgICAgICAgKGVyciwgcm93KSA9PiB7XG4gICAgaWYgKGVycikge1xuICAgICAgZG9uZShlcnIpO1xuICAgIH0gZWxzZSBpZiAocm93KSB7XG4gICAgICBkb25lKG51bGwsIHJvdyk7XG4gICAgfSBlbHNlIHtcbiAgICAgIC8vIG5vdCBmb3VuZCwgY3JlYXRlXG4gICAgICBkYi5ydW4oXCJpbnNlcnQgaW50byB1c2VycyhpZCwgcHJvdmlkZXIsIG5hbWUsIGVtYWlsLCBhdmF0YXIpIHZhbHVlcyAoJGlkLCAkcHJvdmlkZXIsICRuYW1lLCAkZW1haWwsICRhdmF0YXIpXCIsXG4gICAgICAgICAgICAgeyRpZDogcHJvZmlsZS5pZCwgJHByb3ZpZGVyOiBwcm9maWxlLnByb3ZpZGVyLCAkbmFtZTogcHJvZmlsZS5kaXNwbGF5TmFtZSwgJGVtYWlsOiBwcm9maWxlLmVtYWlsLCAkYXZhdGFyOiBwcm9maWxlLnByb2ZpbGVfcGljfSxcbiAgICAgICAgICAgICAoZXJyKSA9PiB7XG4gICAgICAgIGlmIChlcnIpIHtcbiAgICAgICAgICBkb25lKGVycik7XG4gICAgICAgIH0gZWxzZSB7XG4gICAgICAgICAgZG9uZShudWxsLCB7aWQ6IHByb2ZpbGUuaWQsIHByb3ZpZGVyOiBwcm9maWxlLnByb3ZpZGVyLCBuYW1lOiBwcm9maWxlLmRpc3BsYXlOYW1lLCBlbWFpbDogcHJvZmlsZS5lbWFpbCwgYXZhdGFyOiBwcm9maWxlLnByb2ZpbGVfcGljfSk7XG4gICAgICAgIH1cbiAgICAgIH0pO1xuICAgIH1cbiAgfSk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCB7XG4gIGZpbmRPckNyZWF0ZVxufTsiXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "user-model.js"
+      ],
+      "names": [
+        "findOrCreate",
+        "profile",
+        "done",
+        "db",
+        "get",
+        "$id",
+        "id",
+        "$provider",
+        "provider",
+        "err",
+        "row",
+        "run",
+        "$name",
+        "displayName",
+        "$email",
+        "email",
+        "$avatar",
+        "profile_pic",
+        "name",
+        "avatar"
+      ],
+      "mappings": ";;;;;;AAAA;;;;;;AAEA,IAAMA,eAAe,SAAfA,YAAe,CAACC,OAAD,EAAUC,IAAV,EAAmB;AACtCC,eAAGC,GAAH,CAAO,6FAAP,EAAsG,EAACC,KAAKJ,QAAQK,EAAd,EAAkBC,WAAWN,QAAQO,QAArC,EAAtG,EACO,UAACC,GAAD,EAAMC,GAAN,EAAc;AACnB,QAAID,GAAJ,EAAS;AACPP,WAAKO,GAAL;AACD,KAFD,MAEO,IAAIC,GAAJ,EAAS;AACdR,WAAK,IAAL,EAAWQ,GAAX;AACD,KAFM,MAEA;AACL;AACAP,mBAAGQ,GAAH,CAAO,sGAAP,EACO,EAACN,KAAKJ,QAAQK,EAAd,EAAkBC,WAAWN,QAAQO,QAArC,EAA+CI,OAAOX,QAAQY,WAA9D,EAA2EC,QAAQb,QAAQc,KAA3F,EAAkGC,SAASf,QAAQgB,WAAnH,EADP,EAEO,UAACR,GAAD,EAAS;AACd,YAAIA,GAAJ,EAAS;AACPP,eAAKO,GAAL;AACD,SAFD,MAEO;AACLP,eAAK,IAAL,EAAW,EAACI,IAAIL,QAAQK,EAAb,EAAiBE,UAAUP,QAAQO,QAAnC,EAA6CU,MAAMjB,QAAQY,WAA3D,EAAwEE,OAAOd,QAAQc,KAAvF,EAA8FI,QAAQlB,QAAQgB,WAA9G,EAAX;AACD;AACF,OARD;AASD;AACF,GAlBD;AAmBD,CApBD;;kBAsBe;AACbjB;AADa,C",
+      "file": "user-model.js",
+      "sourceRoot": "/app/server/src",
+      "sourcesContent": [
+        "import db from './db';\n\nconst findOrCreate = (profile, done) => {\n  db.get(\"select id, provider, name, email, avatar from users where id = $id and provider = $provider\", {$id: profile.id, $provider: profile.provider}, \n         (err, row) => {\n    if (err) {\n      done(err);\n    } else if (row) {\n      done(null, row);\n    } else {\n      // not found, create\n      db.run(\"insert into users(id, provider, name, email, avatar) values ($id, $provider, $name, $email, $avatar)\",\n             {$id: profile.id, $provider: profile.provider, $name: profile.displayName, $email: profile.email, $avatar: profile.profile_pic},\n             (err) => {\n        if (err) {\n          done(err);\n        } else {\n          done(null, {id: profile.id, provider: profile.provider, name: profile.displayName, email: profile.email, avatar: profile.profile_pic});\n        }\n      });\n    }\n  });\n};\n\nexport default {\n  findOrCreate\n};"
+      ]
+    },
+    "mtime": 1527819420292
+  },
+  "{\"filename\":\"/app/server/src/db.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/server/src\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "fs",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "fs"
+              }
+            ]
+          },
+          {
+            "source": "sqlite3",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "sqlite3"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/server/src/db.js",
+      "filenameRelative": "/app/server/src/db.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "db.js",
+      "sourceFileName": "db.js",
+      "sourceRoot": "/app/server/src",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app/server/src",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "db"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _fs = require('fs');\n\nvar _fs2 = _interopRequireDefault(_fs);\n\nvar _sqlite = require('sqlite3');\n\nvar _sqlite2 = _interopRequireDefault(_sqlite);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar dbFile = './.data/sqlite.db';\nvar exists = _fs2.default.existsSync(dbFile);\n\nvar db = new _sqlite2.default.Database(dbFile);\n\n// if ./.data/sqlite.db does not exist, create it, otherwise print records to console\ndb.serialize(function () {\n  if (!exists) {\n    db.run('CREATE TABLE users (provider TEXT, id TEXT, name TEXT, email TEXT, avatar TEXT)');\n    console.log('New table users created!');\n  } else {\n    console.log('Database ready to go!');\n    db.each('SELECT * from users', function (err, row) {\n      if (row) {\n        console.log('record:', row);\n      }\n    });\n  }\n});\n\nexports.default = db;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImRiLmpzIl0sIm5hbWVzIjpbImRiRmlsZSIsImV4aXN0cyIsImZzIiwiZXhpc3RzU3luYyIsImRiIiwic3FsaXRlMyIsIkRhdGFiYXNlIiwic2VyaWFsaXplIiwicnVuIiwiY29uc29sZSIsImxvZyIsImVhY2giLCJlcnIiLCJyb3ciXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBOzs7O0FBSUE7Ozs7OztBQUhBLElBQU1BLFNBQVMsbUJBQWY7QUFDQSxJQUFNQyxTQUFTQyxhQUFHQyxVQUFILENBQWNILE1BQWQsQ0FBZjs7QUFHQSxJQUFNSSxLQUFLLElBQUlDLGlCQUFRQyxRQUFaLENBQXFCTixNQUFyQixDQUFYOztBQUVBO0FBQ0FJLEdBQUdHLFNBQUgsQ0FBYSxZQUFVO0FBQ3JCLE1BQUksQ0FBQ04sTUFBTCxFQUFhO0FBQ1hHLE9BQUdJLEdBQUgsQ0FBTyxpRkFBUDtBQUNBQyxZQUFRQyxHQUFSLENBQVksMEJBQVo7QUFDRCxHQUhELE1BSUs7QUFDSEQsWUFBUUMsR0FBUixDQUFZLHVCQUFaO0FBQ0FOLE9BQUdPLElBQUgsQ0FBUSxxQkFBUixFQUErQixVQUFTQyxHQUFULEVBQWNDLEdBQWQsRUFBbUI7QUFDaEQsVUFBS0EsR0FBTCxFQUFXO0FBQ1RKLGdCQUFRQyxHQUFSLENBQVksU0FBWixFQUF1QkcsR0FBdkI7QUFDRDtBQUNGLEtBSkQ7QUFLRDtBQUNGLENBYkQ7O2tCQWVlVCxFIiwiZmlsZSI6ImRiLmpzIiwic291cmNlUm9vdCI6Ii9hcHAvc2VydmVyL3NyYyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBmcyBmcm9tICdmcyc7XG5jb25zdCBkYkZpbGUgPSAnLi8uZGF0YS9zcWxpdGUuZGInO1xuY29uc3QgZXhpc3RzID0gZnMuZXhpc3RzU3luYyhkYkZpbGUpO1xuXG5pbXBvcnQgc3FsaXRlMyBmcm9tICdzcWxpdGUzJztcbmNvbnN0IGRiID0gbmV3IHNxbGl0ZTMuRGF0YWJhc2UoZGJGaWxlKTtcblxuLy8gaWYgLi8uZGF0YS9zcWxpdGUuZGIgZG9lcyBub3QgZXhpc3QsIGNyZWF0ZSBpdCwgb3RoZXJ3aXNlIHByaW50IHJlY29yZHMgdG8gY29uc29sZVxuZGIuc2VyaWFsaXplKGZ1bmN0aW9uKCl7XG4gIGlmICghZXhpc3RzKSB7XG4gICAgZGIucnVuKCdDUkVBVEUgVEFCTEUgdXNlcnMgKHByb3ZpZGVyIFRFWFQsIGlkIFRFWFQsIG5hbWUgVEVYVCwgZW1haWwgVEVYVCwgYXZhdGFyIFRFWFQpJyk7XG4gICAgY29uc29sZS5sb2coJ05ldyB0YWJsZSB1c2VycyBjcmVhdGVkIScpO1xuICB9XG4gIGVsc2Uge1xuICAgIGNvbnNvbGUubG9nKCdEYXRhYmFzZSByZWFkeSB0byBnbyEnKTtcbiAgICBkYi5lYWNoKCdTRUxFQ1QgKiBmcm9tIHVzZXJzJywgZnVuY3Rpb24oZXJyLCByb3cpIHtcbiAgICAgIGlmICggcm93ICkge1xuICAgICAgICBjb25zb2xlLmxvZygncmVjb3JkOicsIHJvdyk7XG4gICAgICB9XG4gICAgfSk7XG4gIH1cbn0pO1xuXG5leHBvcnQgZGVmYXVsdCBkYjsiXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "db.js"
+      ],
+      "names": [
+        "dbFile",
+        "exists",
+        "fs",
+        "existsSync",
+        "db",
+        "sqlite3",
+        "Database",
+        "serialize",
+        "run",
+        "console",
+        "log",
+        "each",
+        "err",
+        "row"
+      ],
+      "mappings": ";;;;;;AAAA;;;;AAIA;;;;;;AAHA,IAAMA,SAAS,mBAAf;AACA,IAAMC,SAASC,aAAGC,UAAH,CAAcH,MAAd,CAAf;;AAGA,IAAMI,KAAK,IAAIC,iBAAQC,QAAZ,CAAqBN,MAArB,CAAX;;AAEA;AACAI,GAAGG,SAAH,CAAa,YAAU;AACrB,MAAI,CAACN,MAAL,EAAa;AACXG,OAAGI,GAAH,CAAO,iFAAP;AACAC,YAAQC,GAAR,CAAY,0BAAZ;AACD,GAHD,MAIK;AACHD,YAAQC,GAAR,CAAY,uBAAZ;AACAN,OAAGO,IAAH,CAAQ,qBAAR,EAA+B,UAASC,GAAT,EAAcC,GAAd,EAAmB;AAChD,UAAKA,GAAL,EAAW;AACTJ,gBAAQC,GAAR,CAAY,SAAZ,EAAuBG,GAAvB;AACD;AACF,KAJD;AAKD;AACF,CAbD;;kBAeeT,E",
+      "file": "db.js",
+      "sourceRoot": "/app/server/src",
+      "sourcesContent": [
+        "import fs from 'fs';\nconst dbFile = './.data/sqlite.db';\nconst exists = fs.existsSync(dbFile);\n\nimport sqlite3 from 'sqlite3';\nconst db = new sqlite3.Database(dbFile);\n\n// if ./.data/sqlite.db does not exist, create it, otherwise print records to console\ndb.serialize(function(){\n  if (!exists) {\n    db.run('CREATE TABLE users (provider TEXT, id TEXT, name TEXT, email TEXT, avatar TEXT)');\n    console.log('New table users created!');\n  }\n  else {\n    console.log('Database ready to go!');\n    db.each('SELECT * from users', function(err, row) {\n      if ( row ) {\n        console.log('record:', row);\n      }\n    });\n  }\n});\n\nexport default db;"
+      ]
+    },
+    "mtime": 1527818935796
+  }
+}
